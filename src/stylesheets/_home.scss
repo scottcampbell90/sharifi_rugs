@@ -1,0 +1,65 @@
+
+/* Carousel Customization */
+#myCarousel{
+  height:300px;
+}
+.carousel {
+
+  h2{
+    @include text-shadow(rgba(0,0,0,.75) 2px 2px 0);
+  	font-size:1.5em;
+  	@media(min-width: $screen-sm){
+  		font-size:2em;
+  	}
+  	@media(min-width: $screen-md){
+	  	font-size:2em;
+    }
+  }
+  h1{
+    @include text-shadow(rgba(0,0,0,.75) 2px 2px 0);
+    font-size:2em;
+    @media (min-width: $screen-sm){
+    font-size: 3em;
+  }
+  }
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.about-us-img{
+  padding: 25px;
+	@media(min-width: $screen-sm) and (max-width: $screen-md){
+		margin-top:100px;
+	}
+  img{
+  @media (max-width: $screen-sm){
+    margin: 0 auto;
+  }
+}
+}
+
+.about-us-p, .about-us-img{
+  @extend .col-sm-6;
+}
+
+.service-p {
+  @extend .col-sm-4;
+}
+
+#about {
+  padding-top:50px;
+  margin-top: -50px;
+}
+
+

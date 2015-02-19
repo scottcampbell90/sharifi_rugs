@@ -1,0 +1,84 @@
+//== Theme Colors alisharifi
+//
+//##
+
+$font-stack-serif:		'Merriweather', serif;
+
+$brand-color:           #5C1011 ;
+$success-color:         #8CD60E ;
+$info-color:            #0E3287 ;
+$warning-color:         #CE2400 ;
+$danger-color:          #d9534f ;
+$footer-bg:				#020F2B ;
+$nav-color:				#fff;
+
+
+//== Theme Navbar
+//
+//##
+
+// Basics of a navbar
+$navbar-height:                    50px;
+$navbar-margin-bottom:             $line-height-computed ;
+$navbar-border-radius:             $border-radius-base ;
+$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) ;
+$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) ;
+$navbar-collapse-max-height:       340px ;
+
+$navbar-theme-color:             #fff ;
+$navbar-theme-bg:                #fff ;
+$navbar-theme-border:            darken($navbar-theme-bg, 6.5%) ;
+
+// Navbar links
+$navbar-theme-link-color:                #fff;
+$navbar-theme-link-hover-color:          #FFD700 ;
+$navbar-theme-link-hover-bg:             transparent ;
+$navbar-theme-link-active-color:         #555 ;
+$navbar-theme-link-active-bg:            darken($navbar-theme-bg, 6.5%) ;
+$navbar-theme-link-disabled-color:       #ccc ;
+$navbar-theme-link-disabled-bg:          transparent ;
+
+// Navbar brand label
+$navbar-theme-brand-color:               $navbar-theme-link-color ;
+$navbar-theme-brand-hover-color:         $navbar-theme-link-hover-color ;
+$navbar-theme-brand-hover-bg:            transparent ;
+
+// Navbar toggle
+$navbar-theme-toggle-hover-bg:           #ddd ;
+$navbar-theme-toggle-icon-bar-bg:        #888 ;
+$navbar-theme-toggle-border-color:       #ddd ;
+
+
+//== Navs
+//
+//##
+
+//=== Shared nav styles
+$nav-link-padding:                          15px 15px;
+$nav-sm-link-padding:						10px 10px;						
+$nav-md-link-padding:						15px 15px;
+$nav-lg-link-padding:						15px 15px;
+$nav-link-hover-bg:                         $gray-lighter !default;
+
+$nav-disabled-link-color:                   $gray-light !default;
+$nav-disabled-link-hover-color:             $gray-light !default;
+
+$nav-open-link-hover-color:                 #fff !default;
+
+//== Tabs
+$nav-tabs-border-color:                     #ddd !default;
+
+$nav-tabs-link-hover-border-color:          $gray-lighter !default;
+
+$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-color:          $gray !default;
+$nav-tabs-active-link-hover-border-color:   #ddd !default;
+
+$nav-tabs-justified-link-border-color:            #ddd !default;
+$nav-tabs-justified-active-link-border-color:     $body-bg !default;
+
+//== Pills
+$nav-pills-border-radius:                   $border-radius-base !default;
+$nav-pills-active-link-hover-bg:            $component-active-bg !default;
+$nav-pills-active-link-hover-color:         $component-active-color !default;
+

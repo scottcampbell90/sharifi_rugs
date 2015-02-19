@@ -1,0 +1,160 @@
+
+
+.gallery-row{
+    @media (max-width: $screen-xs){
+
+        h2, h1{
+            font-size: 18px;
+        }
+        .gallery-section, .heading{
+            padding:0px;
+        }
+        .menu-col a{
+            font-size:14px;
+        }
+    }
+    @extend .row;
+    
+    .gallery-sidebar-nav{
+        
+        @extend .list-group;
+        .lead{
+
+        }
+
+        a {
+            @extend .list-group-item;
+
+        }
+    }
+
+    .thumb-image-gallery{
+    @extend .col-sm-9;
+    }
+    .menu-col{
+    @extend .col-sm-3;
+    }
+    .thumb{
+    @extend  .col-lg-3;
+    @extend  .col-md-4; 
+    @extend  .col-xs-6;
+    }
+
+
+    .gallery-section{
+        @extend .col-md-12;
+    }
+
+    .heading{
+        h1{
+        font-size: 30px;
+
+        }
+    }
+    #main-col-wrap{
+        margin-top:20px;
+    }
+
+    .gallery-img{
+        img{
+        float:right;
+        margin:10px;  
+        }
+        
+    } 
+}
+
+.fancybox-title-over-wrap {
+    width: 100%;
+    padding: 0;
+}
+
+.fancybox-title-over-wrap > div {
+    padding: 10px;
+}
+
+// Mixin and adjust the regular image class
+.thumbnail {
+  display: block;
+  padding: 0 !important;
+  margin-bottom: $line-height-computed;
+  line-height: $line-height-base;
+  background-color: $thumbnail-bg;
+  border: none !important;
+  border-radius: none !important;
+  @include transition(all .2s ease-in-out);
+
+  > img,
+  a > img {
+    @include img-responsive();
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // [converter] extracted a&:hover, a&:focus, a&.active to a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active
+
+  // Image captions
+  .caption {
+    padding: $thumbnail-caption-padding;
+    color: $thumbnail-caption-color;
+  }
+}
+
+// Add a hover state for linked versions only
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: $link-color;
+}
+
+
+
+.affix{
+
+    @media (min-width: $screen-sm){
+    position: fixed !important;
+
+    }
+
+    @media (max-width: $screen-sm){
+            position: static;
+            width: auto;
+            top: 0;
+
+    }
+}
+
+#affix-nav {
+    h2{
+    @media (max-width: $screen-md){
+        font-size: 25px;
+    }
+        margin-top:10px;
+        }
+
+    @media (min-width: $screen-sm) and (max-width: $screen-md){
+    width:170px !important;
+    }
+
+    @media (min-width: $screen-md) and (max-width: $screen-lg){
+    width:200px !important;
+    }
+
+    @media (min-width: $screen-lg){
+    width:250px !important;
+    }
+}
+
+
+    
+
+.thumb a{
+    text-align: center;
+    font-color: black;
+    padding-top: 5px;
+}
+
+.thumb a:hover{
+        text-decoration: none;
+        opacity: .5;
+    }

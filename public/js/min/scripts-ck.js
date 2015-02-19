@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#ajax-nav a").each(function(){$(this).attr("href","#"+$(this).attr("href"))}),$(window).bind("hashchange",function(n){var a=n.fragment;$("#main-col").load(a+" #main-col-wrap")}),$(window).trigger("hashchange")}),$(document).ready(function(){$("#nav").affix({offset:{top:function(){return this.top=$("#myCarousel").outerHeight(!0)}}})});

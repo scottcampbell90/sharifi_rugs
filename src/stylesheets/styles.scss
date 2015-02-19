@@ -1,0 +1,16 @@
+// External Libraries
+@import "bootstrap";
+@import "compass";
+
+//Internal Libraries
+@import "var";
+@import "mixins";
+
+//Local Styles
+@import "global";
+@import "home";
+@import "nav";
+@import "footer";
+@import "gallery";
+@import "faq";
+@import "contact";

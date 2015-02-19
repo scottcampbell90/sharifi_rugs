@@ -1,0 +1,26 @@
+
+.contact{
+	.contact-info{
+		@extend .col-md-4;
+	}
+	.email-form{
+		@extend .col-md-8;
+	}
+
+	.map{
+		@extend .col-md-8;
+	}
+
+	.social{
+		@extend .col-md-4;
+	}
+
+
+	.section .contact{
+	 
+
+	}
+	.email-form, .map, .social, .contact-info{
+		padding:15px;
+	}
+}
