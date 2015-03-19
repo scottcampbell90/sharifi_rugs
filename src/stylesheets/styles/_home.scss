@@ -1,7 +1,7 @@
 
 /* Carousel Customization */
 #myCarousel{
-  height:300px;
+  height:500px;
 }
 .carousel {
 
@@ -49,13 +49,6 @@
 }
 }
 
-.about-us-p, .about-us-img{
-  @extend .col-sm-6;
-}
-
-.service-p {
-  @extend .col-sm-4;
-}
 
 #about {
   padding-top:50px;

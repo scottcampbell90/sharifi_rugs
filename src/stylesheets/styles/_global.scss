@@ -7,37 +7,21 @@ body {
   font-family: $font-stack-serif !important;
   font-weight: 300 !important;
 }
+
 .body{
-  @extend .container;
   background-color:#fff;
   margin-top:50px;
   @media (min-width: $screen-sm){
-  	margin-top:60px;
-
+  	margin-top:30px;
   @include box-shadow(1px 1px 2px 0px);
-  section{
-  	
-  }
   }
   
 }
 
 
 
-.section{
-  @extend .row;
-}
-
-header{
-	@extend .container;
-}
-
-.heading{
-  @extend .col-md-12;
-}
-
 .gallery-heading{
-  @extend .col-md-12;
+
   text-decoration: underline;
   padding: 10px 0;
 

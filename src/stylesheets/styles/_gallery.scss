@@ -1,4 +1,6 @@
-
+.gallery{
+    margin-top:50px;
+}
 
 .gallery-row{
     @media (max-width: $screen-xs){
@@ -13,44 +15,27 @@
             font-size:14px;
         }
     }
-    @extend .row;
-    
-    .gallery-sidebar-nav{
-        
-        @extend .list-group;
-        .lead{
 
-        }
+    .gallery-sidebar-nav{
 
         a {
-            @extend .list-group-item;
 
         }
     }
 
     .thumb-image-gallery{
-    @extend .col-sm-9;
+
     }
     .menu-col{
-    @extend .col-sm-3;
-    }
-    .thumb{
-    @extend  .col-lg-3;
-    @extend  .col-md-4; 
-    @extend  .col-xs-6;
-    }
 
-
-    .gallery-section{
-        @extend .col-md-12;
     }
 
     .heading{
         h1{
         font-size: 30px;
-
         }
     }
+    
     #main-col-wrap{
         margin-top:20px;
     }

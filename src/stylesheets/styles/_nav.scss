@@ -87,9 +87,6 @@
   border-radius:0;
 }
 
-.nav-container{
-  @extend .container;
-}
 .navbar-theme {
   background-color: #000;
   @media (min-width:$screen-sm){
